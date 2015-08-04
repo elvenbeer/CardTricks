@@ -1,0 +1,32 @@
+.page-header {
+	margin-top: 0px;
+}
+.panel-body {
+	padding-top: 0px;
+}
+.featureImg {
+	margin-bottom: 20px;
+}
+body {
+  padding-bottom: 70px;
+}
+.card-container {
+	perspective: 800px;
+}
+.card {
+	height: 230px;
+	position: relative;
+	width: 20%;
+	transition: transform 1s;
+	transform-style: preserve-3d;
+}
+.card-back, .card-front {
+	backface-visibility: hidden;
+	position: absolute;
+}
+.card-front {
+	transform: rotateY(180deg);
+	display: none;
+	top: -15%;
+	left: 15%;
+}
