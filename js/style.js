@@ -1,7 +1,7 @@
 $(function(){
 	var classes = ['.ragnaros', '.ysera', '.sylvanas', '.bloodmage'];
 	var degree = 180;
-	var currentHero = 'ragnaros';
+	var currentHero = '.ragnaros';
 	$('.card').click(function(){
 		if (degree%360 != 0) {
 			$(currentHero).css('display', 'none');
